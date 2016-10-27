@@ -5,4 +5,7 @@ This task was to produce a truth table relating to the 7 segment display on the 
 
 From the [truth tables](Tables.pdf) the `Karnaugh Maps(K-maps)` can be produced, allowing for the development of the boolean expressions for the task.
 
-This first task is to calculate the boolean expressions so that the....
+Use the simplified expressions to produce a 7-segment display controller.
+
+## Part 2
+Refine the code from task 1 so that it could be expanded in the future, enabling reusable code.
