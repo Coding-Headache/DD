@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------
+-- File: circuitA
+-- Project: calculator
+--
+-- Author: Daniel Hyde
+-- Date: 20 October 2016
+--
+-- Description: This file will pass the four-bit adder into circuitA in order to
+--					 produce an additional math equation, passing the results to the
+--					 7-segment display.
+---------------------------------------------------------------------------------
