@@ -26,6 +26,7 @@ port(A, B: in std_logic_vector(3 downto 0);
      Q   : out std_logic_vector(3 downto 0);
 	  Cout: out std_logic);
 end component;
+
 component circuitA
 port(Sin : in std_logic_vector(3 downto 0);
      Cout: in std_logic;
@@ -33,9 +34,12 @@ port(Sin : in std_logic_vector(3 downto 0);
 	  D0  : out std_logic_vector(7 downto 0)
 	  );
 end component;
-signal D : std_logic_vector(4 downto 0);
+signal D : std_logic_vector(3 downto 0);
+signal G : std_logic;
 
 begin
 
+inst1: four_bit_adder port map (A, B, D, G);
+inst2: circuitA       port map (D, G, D1, D0);
 
 end architecture;

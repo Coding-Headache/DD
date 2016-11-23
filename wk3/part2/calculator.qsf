@@ -61,4 +61,29 @@ set_global_assignment -name VHDL_FILE calculator.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_E3 -to A[3]
+set_location_assignment PIN_H7 -to A[2]
+set_location_assignment PIN_J7 -to A[1]
+set_location_assignment PIN_G5 -to A[0]
+set_location_assignment PIN_G4 -to B[3]
+set_location_assignment PIN_H6 -to B[2]
+set_location_assignment PIN_H5 -to B[1]
+set_location_assignment PIN_J6 -to B[0]
+set_location_assignment PIN_D13 -to D0[0]
+set_location_assignment PIN_E11 -to D0[7]
+set_location_assignment PIN_F11 -to D0[6]
+set_location_assignment PIN_H12 -to D0[5]
+set_location_assignment PIN_H13 -to D0[4]
+set_location_assignment PIN_G12 -to D0[3]
+set_location_assignment PIN_F12 -to D0[2]
+set_location_assignment PIN_F13 -to D0[1]
+set_location_assignment PIN_A13 -to D1[7]
+set_location_assignment PIN_B13 -to D1[6]
+set_location_assignment PIN_C13 -to D1[5]
+set_location_assignment PIN_A14 -to D1[4]
+set_location_assignment PIN_B14 -to D1[3]
+set_location_assignment PIN_E14 -to D1[2]
+set_location_assignment PIN_A15 -to D1[1]
+set_location_assignment PIN_B15 -to D1[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
